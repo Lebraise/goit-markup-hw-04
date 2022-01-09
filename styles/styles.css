@@ -133,6 +133,7 @@ button {
     color: var(--main-color);
 }
 
+
 .current { 
     color: #2196F3; 
 }
@@ -141,6 +142,27 @@ button {
     display: flex;
     margin-left: 215px;
     margin-right: auto;
+}
+
+.contact-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-list-icon {
+    margin-right: 10px;
+}
+
+.envelope {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.envelope:hover, 
+.envelope:focus {
+    fill: #2196F3;
 }
 
 
@@ -186,11 +208,19 @@ button {
 
 .order-hero {
     background: #2F303A;
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(/images/order-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
 }
 
-.order-block {
-
-}
+/* .order-block {
+width: 1600px;
+background-image: url(/images/order-picture.jpg);
+} */
 
 
 .order-title {
@@ -269,6 +299,22 @@ button {
     padding-top: 10px;  
 }
 
+.feature-list-item-icon {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.feature-list-icon {
+    width: 70px;
+    height: 70px;
+}
+
 /* --Стилизация блока о работе и команде-- */
 
 .photo-title {
@@ -338,8 +384,81 @@ button {
 }
 
 .member-box {
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     padding-top: 30px;
+}
+
+.member-icon-list {
+    padding-bottom: 30px;
+}
+
+.member-icon-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #afb1b8;
+}
+
+.member-social-icon {
+    fill: currentColor;
+}
+
+.member-icon-link:hover,
+.member-icon-link:focus {
+    background: #2196F3;
+    color: #ffffff;
+}
+
+.member-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.member-icon-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* --------Стилизация постоянных клиентов--------- */
+
+.company-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8
+}
+
+.company-item {
+    fill: currentColor;
+}
+
+.company-item:hover,
+.company-item:focus {
+    border: 1px solid #2196F3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #2196F3;
+}
+
+
+
+.company-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 /* -------------Стилизация Footer------------- */
@@ -351,8 +470,10 @@ button {
 }
 
 .footer-list {
+    min-width: 231px;
     margin-top: 20px;
     padding-left: 0;
+
 }
 
 .footer-studio-name {
@@ -374,6 +495,57 @@ button {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
+.footer-div-list {
+    margin-left: 70px;
+}
+
+.adress {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.adress-list {
+    display: flex;
+}
+
+.icon-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.adress-item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.adress-icon {
+    fill: currentColor;
+}
+
+.adress-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.adress-item:hover,
+.adress-item:focus {
+    background: #2196F3;
+}
+
 
 .footer-contact {
     font-family: "Roboto", sans-serif;
