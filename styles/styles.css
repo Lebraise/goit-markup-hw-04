@@ -469,11 +469,17 @@ background-image: url(/images/order-picture.jpg);
     padding-bottom: 60px;
 }
 
+.footer-main-div {
+    display: flex;
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .footer-list {
     min-width: 231px;
     margin-top: 20px;
     padding-left: 0;
-
 }
 
 .footer-studio-name {
@@ -498,6 +504,8 @@ background-image: url(/images/order-picture.jpg);
 
 .footer-div-list {
     margin-left: 70px;
+    padding-top: 0;
+    padding-top: 15px;
 }
 
 .adress {
@@ -660,6 +668,16 @@ background-image: url(/images/order-picture.jpg);
 
 .project-item:not(:nth-child(3n+3)) {
     margin-right: 30px;
+}
+
+.bg:hover,
+.bg:focus {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-item:nth-last-child(-n+3) {
