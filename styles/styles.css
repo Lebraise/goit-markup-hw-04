@@ -212,11 +212,10 @@ button {
     height: 600px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/images/order-picture.jpg);
+    url(../images/order-picture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .order-title {
